@@ -15,7 +15,7 @@
 * 操作系统: 支持 CentOS 7.x & Ubuntu Server 16.x 。
 * 文件系统: 支持 XFS(CentOS 7.2) & EXT4(Ubuntu Server 16.x) 。
 * 磁盘，必须已经存在分区表(类型msdos)，并且有大于1GB的可用分区。
-* root分区，必须是 LVM逻辑卷创建的。
+* root分区，必须是基于 LVM逻辑卷创建的。
 
 ## 使用方法
 * 下载代码，保存到指定的路径，例如:
@@ -24,7 +24,8 @@
 ```
 * 使用 root 权限执行程序:
 ```bash
-python3 /root/lvm/demo.py
+cd /root/AutoExtPartition/
+python3 demo.py
 ```
 
 ## 验证
