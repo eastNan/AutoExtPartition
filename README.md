@@ -2,16 +2,8 @@
 * 自动完成、磁盘分区、扩展 LVM逻辑卷、扩展 root(根)分区。
 * 参考文章: http://zongming.net/read-1154
 
-* CentOS 系统
-auto-fs1.png 
-auto-fs2.png 
-
-* Ubuntu 系统
-auto-fs3.png
-auto-fs4.png
-
 ## 注意事项
-* 数据无价，执行前请务必备份数据，避免数据丢失造成损失。
+* 数据无价，执行前请 **务必备份数据**，避免数据丢失造成损失。
 
 ## 应用场景
 * 适合虚拟化技术中的模板镜像(镜像体积较小)，例如: XenServer / Vmware / KVM 等虚拟化场景。
@@ -36,4 +28,12 @@ python3 /root/lvm/demo.py
 ```
 
 ## 验证
+* CentOS 系统
 
+![程序执行之前](https://github.com/eastNan/AutoExtPartition/blob/master/doc/pic/auto-fs1.png)
+![程序执行之后](https://github.com/eastNan/AutoExtPartition/blob/master/doc/pic/auto-fs2.png)
+
+* Ubuntu 系统
+
+![程序执行之前](https://github.com/eastNan/AutoExtPartition/blob/master/doc/pic/auto-fs3.png)
+![程序执行之后](https://github.com/eastNan/AutoExtPartition/blob/master/doc/pic/auto-fs4.png)
